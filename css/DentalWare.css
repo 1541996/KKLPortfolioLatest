@@ -1,0 +1,167 @@
+/* DentalWare.css */
+.dentalware-container {
+  /* font-family: Arial, sans-serif; */
+  /* max-width: 1200px; */
+  margin: 0 70px;
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+.dentalware-content {
+  display: flex;
+  gap: 40px;
+}
+
+.left-content {
+  flex: 1;
+}
+
+.right-content {
+  width: 900px;
+  flex-shrink: 0;
+}
+
+.dentalware-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #4479d9;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+.feature-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.feature-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.feature-bullet {
+  margin-right: 8px;
+  color: #666;
+}
+
+.appointments-section h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.appointments-list {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.appointment-header {
+  background-color: #f8f9fa;
+  padding: 8px 12px;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.appointment-item {
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.appointment-item.highlighted {
+  background-color: #e8f4fd;
+}
+
+.patient-name {
+  font-weight: bold;
+  display: block;
+}
+
+.patient-phone {
+  font-size: 12px;
+  color: #666;
+  display: block;
+  margin-top: 2px;
+}
+
+.appointment-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.procedure {
+  font-weight: bold;
+}
+
+.time {
+  color: #666;
+}
+
+.appointment-time {
+  padding: 8px 12px;
+  background-color: #f8f9fa;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
+.image-placeholder {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.software-image {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.image-caption {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .dentalware-content {
+    flex-direction: column;
+  }
+  
+  .right-content {
+    width: 100%;
+    order: -1;
+  }
+}

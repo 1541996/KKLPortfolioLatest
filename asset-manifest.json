@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/KKLPortfolioLatest/static/css/main.6b98f5e1.chunk.css",
+    "main.js": "/KKLPortfolioLatest/static/js/main.39f97692.chunk.js",
+    "main.js.map": "/KKLPortfolioLatest/static/js/main.39f97692.chunk.js.map",
+    "runtime-main.js": "/KKLPortfolioLatest/static/js/runtime-main.a8a3d921.js",
+    "runtime-main.js.map": "/KKLPortfolioLatest/static/js/runtime-main.a8a3d921.js.map",
+    "static/css/2.5aa851f1.chunk.css": "/KKLPortfolioLatest/static/css/2.5aa851f1.chunk.css",
+    "static/js/2.fd298bbc.chunk.js": "/KKLPortfolioLatest/static/js/2.fd298bbc.chunk.js",
+    "static/js/2.fd298bbc.chunk.js.map": "/KKLPortfolioLatest/static/js/2.fd298bbc.chunk.js.map",
+    "index.html": "/KKLPortfolioLatest/index.html",
+    "static/css/2.5aa851f1.chunk.css.map": "/KKLPortfolioLatest/static/css/2.5aa851f1.chunk.css.map",
+    "static/css/main.6b98f5e1.chunk.css.map": "/KKLPortfolioLatest/static/css/main.6b98f5e1.chunk.css.map",
+    "static/js/2.fd298bbc.chunk.js.LICENSE.txt": "/KKLPortfolioLatest/static/js/2.fd298bbc.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/KKLPortfolioLatest/static/media/map.a1fe1300.svg",
+    "static/media/slick-theme.css": "/KKLPortfolioLatest/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8a3d921.js",
+    "static/css/2.5aa851f1.chunk.css",
+    "static/js/2.fd298bbc.chunk.js",
+    "static/css/main.6b98f5e1.chunk.css",
+    "static/js/main.39f97692.chunk.js"
+  ]
+}
